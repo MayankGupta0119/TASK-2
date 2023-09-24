@@ -1,0 +1,177 @@
+/* General Styles */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Top Bar Styles */
+.top-bar {
+  position: relative;
+  height: 90px;
+  background: #fdbe33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.top-bar .logo h1 {
+  margin: 0;
+  color: #030f27;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.top-bar .top-bar-item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.top-bar .top-bar-icon {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.top-bar .top-bar-text {
+  margin-left: 10px;
+  color: #030f27;
+}
+
+.top-bar .top-bar-text h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.top-bar .top-bar-text p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Centered Text Styles */
+.image-container {
+  width: 100%;
+  max-height: calc(100vh - 90px);
+  position: relative;
+  overflow: hidden;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(3, 15, 39, 0);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+  max-width: 80%;
+  border-radius: 10px;
+  font-size: 3vw;
+}
+
+.centered-text h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 3.5vw;
+  margin-bottom: 20px;
+}
+
+.centered-text p {
+  font-size: 2vw;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .centered-text {
+    font-size: 6vw;
+  }
+
+  .centered-text h1 {
+    font-size: 7vw;
+  }
+
+  .centered-text p {
+    font-size: 4vw;
+  }
+}
+
+/* Navbar Styles */
+.custom-navbar {
+  background-color: #030f27;
+  border-left: 60px solid #fdbe33;
+  border-right: 60px solid #fdbe33;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fdbe33;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #030f27;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #fdbe33;
+  border-color: #030f27;
+  color: #030f27;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  background-color: #030f27;
+  color: #fff;
+}
+
+/* Card Styles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Container Styles */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Colors */
+.blue-bg {
+  background-color: #030f27;
+  font-size: 2.25rem;
+  color: #fdbe33;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.yellow-bg {
+  background-color: #fdbe33;
+  font-size: 2.25rem;
+  color: #030f27;
+  font-weight: 600;
+  padding: 30px;
+}

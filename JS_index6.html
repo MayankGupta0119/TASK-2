@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Task 6</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="JS_style6.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="insta.png" class="instagram-logo" />
+        <form id="loginForm">
+          <div class="form-group">
+            <span class="input-group-text"
+              ><i class="bi bi-person-fill" id="usernameIcon"></i
+            ></span>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <span class="input-group-text"
+              ><i class="bi bi-lock-fill" id="passwordIcon"></i
+            ></span>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <button type="submit" class="btn login-btn btn-block mt-3">
+            Log In
+          </button>
+          <div class="row mt-2">
+            <div class="form-check col-6 text-left">
+              <input type="checkbox" class="form-check-input" id="rememberMe" />
+              <label class="remember-me-label" for="rememberMe"
+                >Remember me</label
+              >
+            </div>
+            <div class="col-6 text-right">
+              <a href="#">Forgot password?</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <p class="mt-3 text-center">
+        Don't have an account? <a href="#">Sign up</a>
+      </p>
+    </div>
+  </body>
+</html>

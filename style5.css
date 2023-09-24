@@ -1,0 +1,53 @@
+h2 {
+  text-align: center;
+}
+.container {
+  background-color: #f5f5f5;
+  width: 40vw;
+  margin: auto;
+  margin-top: 20px !important;
+  border-radius: 20px;
+}
+.form-table {
+  display: table;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-table-row {
+  display: table-row;
+}
+
+.form-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.n1-column {
+  width: 15%;
+}
+
+.w1-column {
+  width: 85%;
+}
+
+.input-group-text {
+  background-color: #e3e1e1;
+  border-right: 0.5px solid rgb(114, 112, 112);
+}
+
+.input-group {
+  border: 0.5px solid black;
+  border-radius: 4px;
+}
+
+.btn-send {
+  background-color: #febe10;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS TASK 8</title>
+    <link rel="stylesheet" href="JS_style8.css" />
+  </head>
+
+  <body>
+    <h1>Registration Form</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td class="label"><label for="fn">First Name</label></td>
+          <td><input id="fn" type="text" onkeyup="checkStrength()" /></td>
+          <td><span id="fn-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="ln">Last Name</label></td>
+          <td><input id="ln" type="text" /></td>
+          <td><span id="ln-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="email">Email</label></td>
+          <td><input id="email" type="email" /></td>
+          <td><span id="email-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="pass">Password</label></td>
+          <td><input id="pass" type="password" /></td>
+          <td><span id="pass-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="re-pass">Re-enter Password</label></td>
+          <td><input id="re-pass" type="password" /></td>
+          <td><span id="re-pass-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="gen">Gender</label></td>
+          <td class="gen">
+            <label><input type="radio" name="gender" value="male" />Male</label>
+            <label
+              ><input type="radio" name="gender" value="female" />Female</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td class="label"><label for="age">Age</label></td>
+          <td><input id="age" type="number" /></td>
+          <td><span id="age-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="phno">Phone Number</label></td>
+          <td><input id="phno" type="number" /></td>
+          <td><span id="phno-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="address">Address</label></td>
+          <td><textarea id="address" rows="5"></textarea></td>
+          <td><span id="address-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="state">State</label></td>
+          <td><input id="state" type="text" /></td>
+          <td><span id="state-error">Poor</span></td>
+        </tr>
+        <tr>
+          <td class="label"><label for="country">Country</label></td>
+          <td>
+            <select id="country">
+              <option value="Argentina">Argentina</option>
+              <option value="Australia">Australia</option>
+              <option value="Brazil">Brazil</option>
+              <option value="China">China</option>
+              <option value="France">France</option>
+              <option value="India">India</option>
+              <option value="Japan">Japan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="label"><label for="languages">Languages Known</label></td>
+          <td class="secLast">
+            <input
+              type="checkbox"
+              id="english"
+              name="languages"
+              value="English"
+            />
+            <label for="english">English</label>
+
+            <input
+              type="checkbox"
+              id="kannada"
+              name="languages"
+              value="Kannada"
+            />
+            <label for="kannada">Kannada</label>
+
+            <input type="checkbox" id="hindi" name="languages" value="Hindi" />
+            <label for="hindi">Hindi</label>
+
+            <input
+              type="checkbox"
+              id="telugu"
+              name="languages"
+              value="Telegu"
+            />
+            <label for="telugu">Telegu</label>
+          </td>
+          <td><span id="languages-error"></span></td>
+        </tr>
+        <tr>
+          <td class="secLast" colspan="2">
+            <input type="checkbox" id="declare" name="declare" />
+            <label for="declare"
+              >Hereby I declare all the given details are true</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td class="last" colspan="2">
+            <span class="log"
+              >Login to
+              <a href="https://ethnus.com/" target="_blank">Ethnus</a>
+              Website</span
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button type="submit">Register</button>
+
+    <script src="JS_index8.js"></script>
+  </body>
+</html>

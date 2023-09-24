@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS TASK 5</title>
+    <style>
+      h2 {
+        text-align: center;
+      }
+      .container {
+        margin-top: 40px !important;
+        margin: auto;
+        width: 40%;
+      }
+      span.error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <span class="error" id="nameError"></span>
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <span class="error" id="emailError"></span>
+      <br /><br />
+
+      <label for="website">Website:</label>
+      <input type="url" id="website" name="website" />
+      <span class="error" id="websiteError"></span>
+      <br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        required
+      ></textarea>
+      <span class="error" id="messageError"></span>
+      <br /><br />
+
+      <button type="button" onclick="submitForm()">Submit</button>
+    </div>
+
+    <script src="JS_index5.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbardiv {
+  margin: 1rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.company {
+  display: inline;
+}
+.content {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing {
+  margin-top: 3rem;
+}
+.text {
+  max-width: 40%;
+  text-align: center;
+}
+.card-body {
+  padding: 0;
+  height: 15rem;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardtoptext {
+  margin: 0;
+  padding: 0;
+  background-color: ghostwhite;
+}
+.cardsdiv {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20rem;
+}
